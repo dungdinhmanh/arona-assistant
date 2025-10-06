@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schema.tauri.app/config/2.8.5",
+  "productName": "arona-assistant",
+  "version": "0.1.0",
+  "identifier": "com.arona.dev",
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "frontendDist": "../dist"
+  },
+  "bundle": {
+    "active": true,
+    "category": "Development;Utilities;",
+    "copyright": "",
+    "externalBin": [],
+    "icon": [
+      "icons/icon.png"
+    ],
+    "longDescription": "",
+    "macOS": {
+      "entitlements": null,
+      "exceptionDomain": "",
+      "frameworks": [],
+      "providerShortName": null,
+      "signingIdentity": null
+    },
+    "resources": [],
+    "shortDescription": "",
+    "targets": ["deb", "appimage"],
+    "windows": {
+      "certificateThumbprint": null,
+      "digestAlgorithm": "sha256",
+      "timestampUrl": ""
+    }
+  },
+  "app": {
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 800,
+        "resizable": true,
+        "title": "Arona Assistant",
+        "width": 600,
+        "decorations": false,
+        "transparent": true
+      }
+    ]
+  }
+}

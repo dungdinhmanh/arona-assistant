@@ -1,0 +1,10 @@
+{
+  "identifier": "main-capability",
+  "permissions": [
+    "notification:default",
+    "os:default",
+    "shell:default",
+    "dialog:default",
+    "fs:default"
+  ]
+}

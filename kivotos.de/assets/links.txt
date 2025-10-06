@@ -1,0 +1,6 @@
+https://kivotos.de/assets/NP0035_spr.png
+https://kivotos.de/assets/NP0035_spr.skel
+https://kivotos.de/assets/NP0035_spr.atlas
+https://kivotos.de/assets/arona_spr.png
+https://kivotos.de/assets/arona_spr.skel
+https://kivotos.de/assets/arona_spr.atlas

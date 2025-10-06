@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Arona Assistant
+Comment=A friendly assistant for your desktop.
+Exec=arona-assistant
+Icon=arona-assistant
+Terminal=false
+Type=Application
+Categories=Development;Utilities;
+
